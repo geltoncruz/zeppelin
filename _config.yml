@@ -1,7 +1,11 @@
 # Plugins
 gems:
 - jekyll-sitemap
+<<<<<<< HEAD
 safe: true
+=======
+safe: false
+>>>>>>> fbe1c804d1dfedd4d4d3bc15aac8f62f549bf67d
 
 # Build Settings
 markdown: kramdown
@@ -10,6 +14,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
+<<<<<<< HEAD
 title: "GEG -  Google Education Group Salvador"
 email: "gelton@midiaplural.com.br"
 description: "GEGs são comunidades independentes de educadores que inspiram e capacitam os outros para atender as necessidades dos alunos através da tecnologia na sala de aula e fora dela. "
@@ -38,15 +43,52 @@ socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 # Documents
 #c4pUrl: "https://bit.ly/dfua-c4p"
 #c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+=======
+title: "GDG DevFest Season 2014"
+email: "devfest@gdg.org.ua"
+description: "GDG DevFest is a set of events all around the world"
+baseurl: "/zeppelin"
+url: "https://gdg-x.github.io"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsSiteUrl: "gdg-x.github.io"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "GDG Lviv"
+organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "lviv@gdg.org.ua"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@DevFest"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+>>>>>>> fbe1c804d1dfedd4d4d3bc15aac8f62f549bf67d
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+<<<<<<< HEAD
  #- {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Programação"}
  - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/team/", text: "Equipe"}
+=======
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+>>>>>>> fbe1c804d1dfedd4d4d3bc15aac8f62f549bf67d
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
@@ -55,17 +97,28 @@ rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
+<<<<<<< HEAD
 heroImage: "geg.jpg"
 heroTitle: "<typeout>"
 eventDate: "Novembro, 2015"
 typeoutTextValues: '"", "Aprenda", "Compartilhe", "Inspire"'
+=======
+heroImage: "hero.jpg"
+heroTitle: "GDG DevFest <typeout> 2014"
+eventDate: "September - November, 2014"
+typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+>>>>>>> fbe1c804d1dfedd4d4d3bc15aac8f62f549bf67d
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
+<<<<<<< HEAD
 aboutTitle: "Sobre o GEG forum"
+=======
+aboutTitle: "About GDG DevFest"
+>>>>>>> fbe1c804d1dfedd4d4d3bc15aac8f62f549bf67d
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
